@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* font-family: "Open Sans", serif; */
-
+body{
+    background-color: #F1F1F3;
+   
+max-width: 1600px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +44,8 @@
  justify-content: space-between;
  width: 1280px;
  height: 560px;
- margin: 0 auto;
+ margin: 80px 160px;
+margin: 0 auto;
 }
 .banner h5{
     color: #0E0E0E;
@@ -55,16 +60,109 @@
     color: #0E0E0E;
 }
 .sec-btn{
-    padding: 34px 17px;
+    padding:  17px 34px;
     background-color: #006A50;
     color: #FFFFFF;
     border-radius: 8px;
     font-size: 18px;
     font-size: 600;
     font-family: "Open Sans", serif;
-    width: 270px;
+    width: 280px;
     height: 56px;
    display: flex;
    align-items: center;
    justify-content: center;
+   border: none;
+}
+
+main{
+    margin: 80px 0 0 80px; 
+}
+/* vision */
+
+.vision-des h4{
+  font-size: 40px;
+  color: #0E0E0E;
+  font-family: "Open Sans", serif;
+}
+.vision-des p{
+    color: #0E0E0E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+.card-details{
+    width: 410px;
+    height: 325px;
+    margin-top: 32px;
+    background-color: #9fbbe3;
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+#title{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+}
+ #para{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 400;
+    width: 346px;
+}
+.card-details .third-btn{
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 5px;
+}
+.card-details .card-icon{
+    width: 62px;
+    height: 62px;
+}
+.vision-card{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 32px 24px; */
+/* width: 1280px; */
+}
+.card-detailss .four-btn{
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 25px;
+}
+
+
+.card-detailsss .five-btn{
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 5px;
+    
+}
+.card-detailss{
+    background-color: #C6E4D6;
+    width: 410px;
+    height: 325px;
+    margin-top: 32px;
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+.card-detailsss{
+    background-color: #FFF7DF;
+   
+    width: 410px;
+    height: 325px;
+    margin-top: 32px;
+    padding: 32px 32px;
+    border-radius: 16px;
 }
