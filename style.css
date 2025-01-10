@@ -124,11 +124,13 @@ main{
     width: 62px;
     height: 62px;
 }
-.vision-card{
+#vision-card{
     display: flex;
-    justify-content: space-between;
-    /* margin: 32px 24px; */
-/* width: 1280px; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1280px;
+   
+  
 }
 .card-detailss .four-btn{
     background-color: #09A15C;
@@ -165,4 +167,95 @@ main{
     margin-top: 32px;
     padding: 32px 32px;
     border-radius: 16px;
+}
+.vision{
+    width: 1280px;
+}
+
+.description{
+    margin-top: 32px;
+    width: 1280px;
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.description p{
+    color: #0E0E0E;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+}
+.description h5{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+}
+.description .icon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.recent-news h3{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-family: "Open Sans", serif;
+}
+.recent-news p{
+    font-family: "Open Sans", serif;
+    color: #0E0E0E;
+    font-size: 16px;
+}
+.recent-news{
+    width: 1280px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+  border-radius: 24px;
+   width: 1280px;
+   align-items: center;
+   background-color: #FFFFFF;
+   padding: 20px;
+   margin: 30px;
+}
+.card h4{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-family: "Open Sans", serif;
+}
+.card .al-jazeera{
+    width: 134px;
+    height: 40px;
+}
+.card p{
+    color: #0E0E0E;
+    font-size: 16px;
+   
+}
+.card .des{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    width: 744px;
+    height: 72px;
+}
+.card .six-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: #FFFFFF;
+    border: none;
+   font-size: 18px;
+   font-weight: 600px;
+}
+.satelite{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+    margin: 48px 32px 48px 48px;
+}
+
+.news-para{
+  margin: 56px 32px 56px 48px;
 }
