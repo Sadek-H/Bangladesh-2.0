@@ -46,6 +46,7 @@ max-width: 1600px;
  height: 560px;
  margin: 80px 160px;
 margin: 0 auto;
+
 }
 .banner h5{
     color: #0E0E0E;
@@ -78,6 +79,7 @@ margin: 0 auto;
 main{
     margin: 80px 0 0 80px; 
 }
+
 /* vision */
 
 .vision-des h4{
@@ -129,7 +131,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
     width: 1280px;
-   
+   gap: 30px;
   
 }
 .card-detailss .four-btn{
@@ -214,9 +216,10 @@ main{
     justify-content: space-between;
   border-radius: 24px;
    width: 1280px;
+   height: 402px;
    align-items: center;
    background-color: #FFFFFF;
-   padding: 20px;
+   padding: 48px;
    margin: 30px;
 }
 .card h4{
@@ -259,3 +262,161 @@ main{
 .news-para{
   margin: 56px 32px 56px 48px;
 }
+
+.donate h3{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+}
+.donate p{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    width: 1104px;
+    height: 48px;
+    margin: 0 auto;
+}
+.donate{
+    text-align: center;
+}
+#btn-one{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    height: 128px;
+    border: none;
+    margin: 15px;
+}
+#btn-two{
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    height: 128px;
+    border: none;
+    margin: 15px;
+}
+#btn-three{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    height: 128px;
+    border: none;
+    margin: 15px;
+}
+#btn-four{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    height: 128px;
+    border: none;
+    margin: 15px;
+}
+#amount{
+    padding: 20px 40px;
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    color: #0E0E0E;
+    font-size: 20px;
+    border: none;
+    margin-top: 32px;
+}
+.seven-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    border: none;
+   font-size: 18px;
+   font-weight: 600px;
+   display: block;
+   text-align: center;
+   margin: 32px auto;
+}
+.subscribe{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    text-align: center;
+   
+}
+.subscribe h4{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+}
+.subscribe .p-one{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+    width: 622px;
+    height: 48px;
+    font-family: "Open Sans", serif;
+     margin: 0 auto;
+  
+   
+}
+.subscribe .p-two{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 400;
+   text-align: center;
+    height: 48px;
+    font-family: "Open Sans", serif;
+  margin-top: 24px;
+  
+   
+}
+.subs-text{
+    padding: 18px 40px;
+    width: 600px;
+   color: #0E0E0E;
+   font-family: "Open Sans", serif;
+   border: none;
+   border-radius: 8px;
+   position: relative;
+   margin-top: 24px;
+}
+#Subs-btn{
+    padding: 17px 34px;
+    width: 150px;
+    height: 54px;
+   color: #0E0E0E;
+   font-family: "Open Sans", serif;
+   border: none;
+   border-radius: 8px;
+   background-color: #006A50;
+   font-size: 18px;
+   font-weight: 600;
+   color: #FFFFFF;
+  position: absolute;
+  /* right: 412px; */
+ 
+ margin-top: 22px;
+
+
+ 
+
+/* Auto layout */
+
+
+/* Inside Auto Layout */
+
+}
+    
+
