@@ -150,23 +150,19 @@ margin: 0 auto;
 }
 #vision-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width:1200px;
    
    gap: 24px;
-   /* text-align: center; */
-   /* margin: 0 auto; */
+   
    margin-left: 40px;
  text-align: center;
   
 }
 
 .card-detailss{
-    /* text-align: center;
-    width: 380px;
-    height: 325px;
-    padding: 32px 32px; */
+    
     width: 380px;
     height: 325px;
    
@@ -177,10 +173,7 @@ margin: 0 auto;
     text-align: center;
 }
 .card-detailsss{
-    /* text-align: center;
-    width: 380px;
-    height: 325px;
-    padding: 32px 32px; */
+   
 
     width: 380px;
     height: 325px;
@@ -325,7 +318,6 @@ margin: 0 auto;
 }
 .news-card{
     width:1200px;
-    /* margin: 0px 80px 0px 0px; */
     margin:0 auto;
    
 }
@@ -492,45 +484,13 @@ margin: 0 auto;
    font-size: 18px;
    font-weight: 600;
    color: #FFFFFF;
-  /* position: absolute; */
-  /* right: 412px; */
+  
   border: none;
  
  margin-left: -134px;
  margin-bottom: 5px;
 
-
+}
  
 
-/* Auto layout */
-
-
-/* Inside Auto Layout */
-
-}
-/* #recent-news{
- width: 1300px;
-}
-#description{
-    width: 1300px;
-}
-    #banner{
-        width: 1300px;
-    }
-    #card{
-        width: 1300px;
-    }
-    #donate{
-        width: 1300px;
-    }
-    #subscribe{
-        width: 1300px;
-    } */
-
- /* main{
-        width: 1300px;
-    }
-    #banner{
-        width: 1300px;
-    } */
 
